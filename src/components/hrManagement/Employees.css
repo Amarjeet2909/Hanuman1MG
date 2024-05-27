@@ -1,0 +1,301 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.common-border {
+  border-radius: 10.944px;
+  background: #fff;
+  box-shadow: 0px 0px 16.142px 1.824px rgba(0, 0, 0, 0.09);
+}
+.map-view {
+  padding-inline: 1.2rem;
+}
+/* ----- cards  -------- */
+.cards {
+  justify-content: center;
+  align-items: center;
+  .icon-background {
+    border-radius: 5.472px;
+    background-color: #ef5820;
+    width: 32.832px;
+    height: 32.832px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .call-type {
+    color: #6d6d6d;
+    font-family: Poppins;
+    font-size: 12.16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.486px;
+  }
+  .price {
+    color: #0f8805;
+    font-family: Poppins;
+    font-size: 9.12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.365px;
+  }
+  .number {
+    color: #ef5820;
+    text-align: right;
+    font-family: Poppins;
+    font-size: 30.4px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.216px;
+  }
+}
+/* ---------- greeting  --------- */
+.greeting-color {
+  color: #0f8805;
+}
+.greeting-information {
+  color: #6d6d6d;
+  font-family: Poppins;
+  font-size: 10.944px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 15.504px; /* 141.667% */
+  letter-spacing: -0.438px;
+}
+.recent-news {
+  /* width: 438.413px;
+  height: 202.272px; */
+  border-radius: 10.944px;
+  /* background-color: #fff; */
+  box-shadow: 0px 0px 16.142px 1.824px rgba(0, 0, 0, 0.09);
+  padding: 1rem;
+}
+.recent-background {
+  background-image: url("../../assets/images/recent-news.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 1.5rem;
+  border-radius: 10.944px;
+}
+.recent-title {
+  color: #ef5820;
+  font-family: Poppins;
+  font-size: 16.416px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 15.504px; /* 94.444% */
+  letter-spacing: -0.657px;
+}
+.recent-information {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 10.944px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 15.504px; /* 141.667% */
+  letter-spacing: -0.438px;
+}
+
+/* ------ veiw-attendence  ------- */
+.veiw-attendence {
+  color: #ef5820;
+  text-align: right;
+  font-family: Poppins;
+  font-size: 10.976px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.439px;
+}
+/* -------- calender  ----- */
+.calender {
+  width: 135% !important;
+  height: 442.96px;
+}
+.datePickerContainer {
+  position: relative;
+}
+
+.datePickerInput {
+  padding: 2px 10px; /* Ensure space for the arrow */
+  border-radius: 7px;
+  border: 1.254px solid #9d9d9d;
+}
+
+.datePickerInput::-webkit-calendar-picker-indicator {
+  display: none; /* Hide the default calendar icon */
+}
+
+.arrowDown {
+  position: absolute;
+  top: 50%;
+  right: 5px; /* Adjust as needed */
+  transform: translateY(-50%);
+}
+/* ------------------------------------- */
+.mark-attendance {
+  color: #1e1e1e;
+  font-family: Poppins;
+  font-size: 17.248px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 15.994px; /* 92.727% */
+  letter-spacing: -0.69px;
+}
+.select-images {
+  color: #bebebe;
+  font-family: Poppins;
+  font-size: 6.272px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 15.994px; /* 255% */
+  letter-spacing: -0.251px;
+  text-align: center;
+}
+.image-side {
+  color: #626262;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 6.272px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 15.994px; /* 255% */
+  letter-spacing: -0.251px;
+}
+.tiplus {
+  color: #fff;
+  border-radius: 3.92px;
+  border: 0.784px solid #9d9d9d;
+  background: #d9d9d9;
+  width: 23.52px;
+  height: 23.52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.clock {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 14.936px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.597px;
+ 
+}
+.upload {
+  color: #3e3e3e;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 11.949px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.478px;
+  border-radius: 6.272px;
+  padding: 0.1rem 0.3rem;
+}
+
+/* ------------ hr management ----------- */
+.employee-list {
+  color: #1e1e1e;
+  font-family: Poppins;
+  font-size: 23.972px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.959px;
+}
+.button-text {
+  border-radius: 7.84px;
+  background: #fff;
+  box-shadow: 0px 0px 16.319px 1.844px rgba(0, 0, 0, 0.15);
+  color: #0f8805;
+  font-family: Poppins;
+  font-size: 12.544px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.502px;
+  border: none;
+}
+.add-employee{
+  padding: 0.7rem 1.25rem;
+  background: #0F8805;
+  color:#fff;
+}
+/* ------- table ------- */
+table {
+  width: 100%;
+  thead {
+    background-color: #eff7df;
+  }
+  thead tr:hover {
+    background-color: #eff7df;
+  }
+  tr:hover {
+    background-color: #fce2c9;
+  }
+  th,
+  td {
+    text-align: center;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14.774px;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.42px;
+    border-bottom: 1.751px solid #e8e8e8;
+  }
+  th {
+    padding: 0.5rem 1rem;
+    color: #4b4b4b;
+    font-weight: 700;
+  }
+  th:first-child {
+    border-top-left-radius: 10.5px;
+  }
+  th:last-child {
+    border-top-right-radius: 10.5px;
+  }
+  td {
+    color: #6d6d6d;
+    font-weight: 600;
+    padding: 0.5rem;
+  }
+  td:first-child {
+    border-left: 1.751px solid #e8e8e8;
+  }
+  td:last-child {
+    border-right: 1.751px solid #e8e8e8;
+    padding: 0rem 1rem;
+  }
+}
+.eye{
+  color: #3858FF;
+  border: 1px solid #3858FF;
+  border-radius: 50%;
+  padding: 0 3px;
+}
+.edit{
+  color: #0F8805;
+  border: 1px solid #0F8805;
+  padding: 0 3px;
+  border-radius: 50%;
+ 
+}
+.delete{
+  background-color: #FF4646;;
+  border-radius: 50%;
+  border: none; 
+  width: 20px;
+  padding: 0 3px;
+  .img-delete{
+    width: 100%;
+  }
+}

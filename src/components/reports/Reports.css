@@ -1,0 +1,20 @@
+
+.profile-pic {
+  border-radius: 32.928px;
+  border: 1.568px solid #ef5820;
+  width: 32.928px;
+  height: 32.928px;
+}
+.view-btn{
+  border-radius: 7.056px;
+border: 1.568px solid #EF5820;
+background: #EF5820;
+color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 14.112px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.564px;
+}
