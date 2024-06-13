@@ -34,8 +34,8 @@ const AmbulanceInformation = (props) => {
       VehicleNumber: "T0324DL7748B",
       Model: "03/2024",
       title: "Ambulance Handia",
-      amtek_link: "http://46.28.44.138:3009/live?amb_id=NH%20HANDIA",
-      vlink: "https://camera.smartambulance.in/stream?ambulanceId=C82E18230934",
+      amtek_link: "https://amtek.24x7healthcare.live/live?amb_id=NH%20HANDIA",
+      vlink: "https://camera.smartambulance.in/stream?ambulanceId=0CB8155B1C14",
       EMTNurse: [
         { type: "EMT Nurse", name: "Mr. Vimlesh Kumar" },
         { type: "EMT Nurse", name: "Mr. Ramdhani Bind" },
@@ -47,8 +47,8 @@ const AmbulanceInformation = (props) => {
       VehicleNumber: "T0324DL7746B",
       Model: "03/2024",
       title: "Ambulance Kokhraj",
-      amtek_link: "http://46.28.44.138:3009/live?amb_id=NH%20KOKRAJ",
-      vlink: "https://camera.smartambulance.in/stream?ambulanceId=E05A1BD173D8",
+      amtek_link: "https://amtek.24x7healthcare.live/live?amb_id=NH%20KOKRAJ",
+      vlink: "https://camera.smartambulance.in/stream?ambulanceId=0CB815595B7C",
       EMTNurse: [
         { type: "EMT Nurse", name: "Mr. Akhilesh" },
         { type: "EMT Nurse", name: "Mr. Avadhesh" },
